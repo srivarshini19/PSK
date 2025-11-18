@@ -1,13 +1,13 @@
-PSK & QPSK
-Aim
+# PSK & QPSK
+# Aim
 Write a simple Python program for the modulation and demodulation of PSK and QPSK.
 
-Tools required
+# Tools required
 Google Colab
 
-Program
+# Program
+# PSK
 ```
-PSK
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -55,7 +55,7 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 ```
-QPSK
+# QPSK
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -127,10 +127,12 @@ plt.tight_layout()
 plt.grid(True)
 plt.show()
 ```
-Output Waveform
-PSK
-image
-QPSK
-image
-Results
+# Output Waveform
+# PSK
+<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/8ba8f02b-b891-42d9-8fa4-97366d7e3061" />
+
+# QPSK
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/6acad295-edac-4f61-b7b6-158ac0b79d93" />
+
+# Results
 Thus ,the waveform generated successfully.
